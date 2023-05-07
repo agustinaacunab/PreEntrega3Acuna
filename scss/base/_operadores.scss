@@ -1,0 +1,10 @@
+$ancho-uno: 20px;
+
+//ejemplo
+
+.foto{
+    width: $ancho-uno * 2;
+    height: $ancho-uno / 2;
+    padding: $ancho-uno + 20;
+    
+}

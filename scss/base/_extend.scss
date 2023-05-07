@@ -1,0 +1,22 @@
+%flex_centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+};
+
+//ejemplo
+
+.columnas{
+    background-color: green;
+    padding: 20px;
+    @extend %flex_centrado;
+
+
+}
+
+
+.card{
+    @extend %flex_centrado;
+    
+}
