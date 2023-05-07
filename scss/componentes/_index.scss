@@ -1,3 +1,20 @@
-.class{
-    color: nth($colores,4);
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative
+}
+
+.img-uno{background-color: grey;}
+
+.img-dos{background-color: orange;}
+
+.img-tres{background-color: darkgreen;}
+
+p{
+	font-size: 25px;
+	margin:0 0 24px 0
 }

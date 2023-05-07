@@ -1,15 +1,1 @@
 //estilos agrupados 
-$footer:(
-bg-cf:plum, 
-deco: none,
-borde: 2px slid violet,
-);
-
-
-//ejemplo
-
-footer{
-    background-color: map-get($footer, bg-cf);
-    text-decoration: map-get($footer, deco );
-    border: map-get($footer, borde);
-}

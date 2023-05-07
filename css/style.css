@@ -1,154 +1,57 @@
-*{
-	border:0;
-	box-sizing: border-box;
-	margin:0;
-	padding: 0;
-}
-
-body{
-	color:rgb(100,100,100);
-	font-family: 'Poiret One', cursive, helvetica;
-	font-size:100%;
-	line-height: 1.3
-}
-
-p{
-	font-size: 1.4rem;
-	margin:0 0 24px 0
-}
-
-header{
-	left: 35%;
-	position: fixed;
-	top:2rem;
-	width: 25%;
-	z-index: 1111
-}
-
-nav ul{
-	display: table;
-	list-style-type: none;
-	width:100%;
-}
-
-nav li{
-	display: table-cell;
-	text-align: center
-}
-
-nav li a{
-  background-color:rgba(50,50,50,.2);
-	border:2px solid #fff;
-	color:tomato;
-	font-family: helvetica;
-	font-size: 2rem;
-	padding: 10px;
-	text-decoration: none
-}
-.parallax, .main, .texto{margin:0 auto}
-
-.parallax{
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:  cover;
-	height:30rem;
-	max-width: 100%;
-	position: relative
-}
-
-.texto-interior{
-	color:#fff;
-	font-size: 2rem;
-	font-weight: bold;
-	left: 10%;
-	position: absolute;
-	text-align: center;
-	top:40%;
-	width: 80%
-}
-	
-.img-uno{background-image: url(../images/ImagINdex.gif)}
-
-.img-dos{background-image:url(../images/studenst.avif)}
-
-.img-tres{background-color: rgb(231, 233, 227);}
-
-
-.texto{
-	padding:5%;
-	width: 90%
-}
-
-
-
-footer {
-  background-color: plum;
-  text-decoration: none;
-  border: 2px slid violet;
-}
-
-.card, .columnas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.columnas {
-  background-color: green;
-  padding: 20px;
-}
-
-.foto {
-  width: 40px;
-  height: 10px;
-  padding: 40px;
-}
-
-.caja {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.caja {
-  background-color: plum;
-  padding: 0 40px;
-  border-radius: 10%;
-}
-
-.main {
-  background-color: rgb(41, 43, 41);
-  padding: 0 60px;
-  border-radius: 8%;
-}
-
-@media only screen and (max-width: 767px) {
-  body h1 {
-    font-size: 1.2rem;
-    font-family: "Courier New", Courier, monospace;
-  }
-}
-
 header {
-  background-color: plum;
+  display: flex;
+  position: static;
+  top: 2rem;
+  width: 60%;
+  z-index: 1111;
+  align-items: center;
 }
-header nav {
-  padding: 20px 20px;
+header .NavbarA {
+  font-size: 25px;
+  font-weight: bold;
 }
-header nav h1 {
+header .clasNAV {
+  display: grid;
+  align-items: center;
+  display: list-item;
+  font-family: "Montserrat", sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  max-width: 100%;
+  position: relative;
+}
+
+.img-uno {
+  background-color: grey;
+}
+
+.img-dos {
+  background-color: orange;
+}
+
+.img-tres {
+  background-color: darkgreen;
+}
+
+p {
+  font-size: 25px;
+  margin: 0 0 24px 0;
+}
+
+footer div {
+  background-color: rgb(46, 104, 29);
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
-header nav ul {
-  list-style: none;
-}
-header nav ul li {
-  font-size: 20px;
-}
-
-.class {
-  color: plum;
+footer div img {
+  max-width: 25%;
+  max-height: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */

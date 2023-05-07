@@ -1,0 +1,310 @@
+
+
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	color:rgb(10, 5, 5);
+	font-family: 'Poiret One', cursive, helvetica;
+	font-size:100%;
+	line-height: 1.3;
+	border: 50%
+}
+
+p{
+	font-size: 25px;
+	margin:0 0 24px 0
+}
+
+header{
+	display: flex;
+	position: static;
+	top:2rem;
+	width: 60%;
+	z-index: 1111;
+	align-items:center;
+}
+header{
+	background-color: green;
+}
+
+
+.parallax, .main, .texto{margin:0 0}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative
+}
+.parallax-Gif{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  auto;
+	height:32rem;
+	max-width: 100%;
+	position: relative;
+}
+
+/*Textos index*/
+.texto-interior{
+	color:#070707;
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%
+}
+.texto{
+	padding:3%;
+	width: auto;
+	font-family: 'Quicksand', sans-serif;
+	background-color: rgb(8, 116, 4);
+}
+.Text-Index{
+	color: rgb(223, 176, 22);
+	font-weight: bold;
+	font-family:  'Open Sans', sans-serif;
+    
+}
+/*Imagenes parallax*/	
+.img-uno{background-image: url(../img/ImagINdex.gif)}
+
+.img-dos{background-image:url(../img/childs.avif)}
+
+.img-tres{background-image:url(../img/estudiando.avif)}
+
+.img-cuatro{background-color: rgb(251, 252, 251);}
+
+.img-cinco{
+	background-image: url(../img/ubicacion.avif);
+background-size: cover;}
+
+.Img-maps{
+	width: 440px;
+	height: 300px;
+	padding: 5%;
+	border: 10%;
+}
+.Img-LOG{
+width: 300px;
+height: 300px;
+}
+/*Propiedades barra*/
+.NavbarA{
+	color: rgb(62, 206, 34);
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+
+.clasNAV{
+	display: grid;
+	align-items:center;
+	display:list-item;
+	font-family:  'Montserrat', sans-serif;
+	
+}
+.ClasFOOT{
+	display: flex;
+	align-items: center;
+	display: list-item;
+}
+
+/*Boton nav*/
+.mi-active{
+	background-color: green;
+	color: rgb(221, 220, 218);
+	border-color: black;
+}
+a {
+	background-color: rgb(110, 119, 105);
+	transition: background-color .5s;
+  }
+  
+  a:hover {
+	background-color: rgb(2, 124, 39);
+	
+  }
+  .Logo{
+	background-color: rgb(8, 116, 4);
+  }
+  /*Textos Nosotros*/
+  .Txt-Carrousel1{
+	color: black;
+	font-family:  'Julius Sans One', sans-serif;
+	
+
+  }
+  .Txt-carrousel2{
+color: white;
+font-family:  'Julius Sans One', sans-serif;
+  }
+  .FORMULARIO{
+	color: green;
+	font-family:  'Quicksand', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  /*btns*/
+  .mi-btn{
+	border-radius: 50px;
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3) green, blue, alpha;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+  }
+  .FORM-Box{
+	border-color: #070707;
+	border-bottom: #070707;
+  }
+  .btn-Form{
+	color: rgb(11, 24, 11);
+	background-color: rgb(90, 146, 18);
+  }
+  .btn-Form:hover{
+	background-color: rgb(241, 161, 12);
+  }
+  .btn-Form:active{
+	background-color: orange;
+  }
+  .nav-link{
+	color: rgb(247, 250, 246);
+	font-family:  'Tajawal', sans-serif;
+
+  }
+  .nav-link:hover{
+	background-color: orange;
+	color: green;
+  }
+  .nav-link1{
+	color: wheat;
+  }
+.btn-Login{
+	color: orange;
+	background-color: white;
+	border-color: black;
+}
+.btn-Login:hover{
+	background-color: green;
+	color: white;
+}
+/*textos*/
+
+.txt-us1{
+color: rgb(0, 0, 0);
+font-family:   'Quicksand', sans-serif;
+padding: 1%;
+border: 25%;
+background-color: rgb(238, 192, 93);
+font-family: 'Caveat', cursive;
+font-size: 25px;
+text-align: center;
+}
+.cla-us{
+	background-color: green;
+}
+.txt-us2{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-size: 35px;
+	text-align: center;
+	font-family:   'Quicksand', sans-serif;
+}
+.txt-us3{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.Where{
+	font-family: 'Amatic SC';
+	color: rgb(7, 7, 7);
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.mapa1{
+	font-family: 'Amatic SC';
+	color: rgb(58, 40, 16);
+	text-align: center;
+	backface-visibility: visible;
+}
+.mapa2{
+	font-family: 'Amatic SC';
+	color: rgb(124, 107, 8);
+	text-align: center;
+	backface-visibility: visible;
+}
+.txt-IN{
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+}
+.RedesF{
+	text-align: center;
+	font-family: 'Caveat', cursive;
+}
+.acordeon-mio{
+	color: orange;
+	background-color: rgb(43, 133, 25);
+	font-family: 'Montserrat', sans-serif;
+	
+}
+/*propiedades cambiadas*/
+.acordeon-mio:not(.collapsed) {
+	background-color: rgb(231, 170, 37);
+	color: rgb(10, 10, 10);
+	border-color: #070707;
+	
+}
+.accordion-button:focus{
+	box-shadow: none;
+
+}
+.acordeon-mio-p{
+	font-family:  'Tajawal', sans-serif;
+	color: green;
+}
+.LogIN{
+	font-family:   'Montserrat', sans-serif;
+}
+.form-control:focus{
+	box-shadow: none;
+	border-color: #08c712;
+}
+.txt-login{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-size: 35px;
+	text-align: center;
+	font-family:  'Tajawal', sans-serif;
+	background-color: orange;
+}
+.sec-c{
+	background-color: orange;
+}
+.Nav-list{
+	font-family:  'Montserrat', sans-serif;
+}
+option:hover{
+	background-color: orange;
+}
