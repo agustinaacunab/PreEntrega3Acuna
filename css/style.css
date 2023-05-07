@@ -72,7 +72,7 @@ nav li a{
 
 .img-dos{background-image:url(../images/studenst.avif)}
 
-.img-tres{background-color: olivedrab;}
+.img-tres{background-color: rgb(231, 233, 227);}
 
 
 .texto{
@@ -119,7 +119,7 @@ footer {
 }
 
 .main {
-  background-color: plum;
+  background-color: rgb(41, 43, 41);
   padding: 0 60px;
   border-radius: 8%;
 }
