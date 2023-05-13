@@ -15,44 +15,11 @@ body{
 	border: 50%
 }
 
-p{
-	font-size: 25px;
-	margin:0 0 24px 0
-}
-
-header{
-	display: flex;
-	position: static;
-	top:2rem;
-	width: 60%;
-	z-index: 1111;
-	align-items:center;
-}
-header{
-	background-color: green;
-}
 
 
 .parallax, .main, .texto{margin:0 0}
 
-.parallax{
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:cover;
-	height:30rem;
-	max-width: 100%;
-	position: relative
-}
-.parallax-Gif{
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:  auto;
-	height:32rem;
-	max-width: 100%;
-	position: relative;
-}
+
 
 /*Textos index*/
 .texto-interior{
@@ -77,18 +44,7 @@ header{
 	font-family:  'Open Sans', sans-serif;
     
 }
-/*Imagenes parallax*/	
-.img-uno{background-image: url(../img/ImagINdex.gif)}
 
-.img-dos{background-image:url(../img/childs.avif)}
-
-.img-tres{background-image:url(../img/estudiando.avif)}
-
-.img-cuatro{background-color: rgb(251, 252, 251);}
-
-.img-cinco{
-	background-image: url(../img/ubicacion.avif);
-background-size: cover;}
 
 .Img-maps{
 	width: 440px;
@@ -101,26 +57,8 @@ width: 300px;
 height: 300px;
 }
 /*Propiedades barra*/
-.NavbarA{
-	color: rgb(62, 206, 34);
-	font-size: 25px;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
-}
 
 
-.clasNAV{
-	display: grid;
-	align-items:center;
-	display:list-item;
-	font-family:  'Montserrat', sans-serif;
-	
-}
-.ClasFOOT{
-	display: flex;
-	align-items: center;
-	display: list-item;
-}
 
 /*Boton nav*/
 .mi-active{
