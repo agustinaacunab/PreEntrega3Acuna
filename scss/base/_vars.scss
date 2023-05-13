@@ -1,6 +1,10 @@
-$colores-primario: rgb(64, 64, 65);
-$colores-secundarios: #6B6, rgb(206, 143, 6), ;
-$colores-textos: #fff8f8, orange , black, green;
+$color-primario: rgb(59, 117, 51);
+$color-secundario:rgb(206, 143, 6) ;
+$colores-textos:  black;
+$color-fondo1: rgb(14, 114, 27);
+$color-btn: orange;
+$color-fondo2: rgb(241, 202, 128);
+
 
 $espaciado-estandar: 10px;
 $espaciado-doble: 20px;
@@ -9,7 +13,9 @@ $fuente-normal: 1em;
 $fuente-pequena: 0.8em;
 $fuente-grande: 1.4em;
 
-$tipografia-general:  'Tajawal', sans-serif;
-$tipografia-alternativa: font-family  'Quicksand', sans-serif;
+$tipografia-general:'Julius Sans One', sans-serif;
+$tipografia-alternativa: 'Montserrat', sans-serif;
+$size-tipografia: 20px;
+$size-Title: 30px;
 
-//prueba
+

@@ -5,15 +5,13 @@ header{
 	width: 60%;
 	z-index: 1111;
 	align-items:center;
-    .NavbarA{
-        font-size: 25px;
-        font-weight: bold;
-    }
-    .clasNAV{
-        display: grid;
-        align-items:center;
-        display:list-item;
-        font-family:  'Montserrat', sans-serif;
-        
-    }
+    nav{
+        background-color: $color-primario;
+        color: rgb(221, 206, 206);
+     ul{
+		li{
+			color: $color-primario
+		}
+	 }
+	} 
 }

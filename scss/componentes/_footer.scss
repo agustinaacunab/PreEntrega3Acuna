@@ -1,11 +1,14 @@
 footer{
+    background-color: $color-primario;
+    
     div{
-        background-color: rgb(46, 104, 29);
-        font-family: 'Courier New', Courier, monospace;
+        
+        font-family:  'Montserrat', sans-serif;
+        font-size: 15px;
         text-align: center;
+        color: white;
         img{
-            max-width: 25%;
-            max-height: 25%;
+            height: 60px;
         }
     }
 }

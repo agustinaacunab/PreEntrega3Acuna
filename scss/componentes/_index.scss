@@ -10,12 +10,18 @@
 
 .img-uno{background-image: url(../../images/childs.avif);}
 
-.img-dos{background-color: orange;}
+.img-dos{background-image: url(../../images/people.avif);}
 
-.img-tres{background-color: darkgreen;}
+.img-tres{background-image: url(../../images/studenst.avif);}
 
 p{
 	font-size: 25px;
-	margin:0 0 24px 0
+	margin:0 0 24px 0;
+	color: $color-primario;
 }
+nav{
+	background-color: $color-primario;
+	color: white;
+}
+
 

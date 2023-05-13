@@ -6,15 +6,12 @@ header {
   z-index: 1111;
   align-items: center;
 }
-header .NavbarA {
-  font-size: 25px;
-  font-weight: bold;
+header nav {
+  background-color: rgb(59, 117, 51);
+  color: rgb(221, 206, 206);
 }
-header .clasNAV {
-  display: grid;
-  align-items: center;
-  display: list-item;
-  font-family: "Montserrat", sans-serif;
+header nav ul li {
+  color: rgb(59, 117, 51);
 }
 
 .parallax {
@@ -28,30 +25,39 @@ header .clasNAV {
 }
 
 .img-uno {
-  background-color: grey;
+  background-image: url(../../images/childs.avif);
 }
 
 .img-dos {
-  background-color: orange;
+  background-image: url(../../images/people.avif);
 }
 
 .img-tres {
-  background-color: darkgreen;
+  background-image: url(../../images/studenst.avif);
 }
 
 p {
   font-size: 25px;
   margin: 0 0 24px 0;
+  color: rgb(59, 117, 51);
 }
 
+nav {
+  background-color: rgb(59, 117, 51);
+  color: white;
+}
+
+footer {
+  background-color: rgb(59, 117, 51);
+}
 footer div {
-  background-color: rgb(46, 104, 29);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
   text-align: center;
+  color: white;
 }
 footer div img {
-  max-width: 25%;
-  max-height: 25%;
+  height: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
