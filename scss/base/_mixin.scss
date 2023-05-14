@@ -24,7 +24,8 @@
 }
 
 @mixin FORMULARIO{
-	color: green;
+	background-color: $color-primario;
+	color: $colores-textos;
 	font-family:  'Quicksand', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
