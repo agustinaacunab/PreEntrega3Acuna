@@ -7,7 +7,7 @@ header {
   align-items: center;
 }
 header nav {
-  background-color: rgb(59, 117, 51);
+  background-color: rgb(206, 143, 6);
   color: rgb(221, 206, 206);
 }
 header nav ul li {
@@ -25,7 +25,7 @@ header nav ul li {
 }
 
 .img-uno {
-  background-image: url(../../images/childs.avif);
+  background-image: url(../../images/IL2023.JPG);
 }
 
 .img-dos {
@@ -42,22 +42,30 @@ p {
   color: rgb(59, 117, 51);
 }
 
-nav {
-  background-color: rgb(59, 117, 51);
-  color: white;
-}
-
-footer {
-  background-color: rgb(59, 117, 51);
-}
 footer div {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  background-color: rgb(59, 117, 51);
+}
+footer div h2 {
+  color: rgb(206, 143, 6);
+  font-size: 20px;
   text-align: center;
-  color: white;
 }
 footer div img {
-  height: 60px;
+  width: 150px;
+  opacity: 10%;
+  padding: 1%;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Img-LOG {
+  width: 300px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
