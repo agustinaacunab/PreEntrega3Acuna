@@ -1,17 +1,9 @@
-header{
-	display: flex;
-	position: static;
-	top:2rem;
-	width: 60%;
-	z-index: 1111;
-	align-items:center;
-    nav{
-        background-color: $color-secundario;
-        color: rgb(221, 206, 206);
-     ul{
-		li{
-			color: $color-primario
-		}
-	 }
-	} 
+
+.mi-icon{
+	border-color: $color-secundario;
+	border: 1px;
+}
+.mi-btn{
+	background-color: $color-primario;
+	color: $color-secundario;
 }

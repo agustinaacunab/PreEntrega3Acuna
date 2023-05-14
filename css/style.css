@@ -1,17 +1,16 @@
-header {
-  display: flex;
-  position: static;
-  top: 2rem;
-  width: 60%;
-  z-index: 1111;
-  align-items: center;
+nav {
+  text-decoration: none;
+  border: 2px solid black;
 }
-header nav {
-  background-color: rgb(206, 143, 6);
-  color: rgb(221, 206, 206);
+
+.mi-icon {
+  border-color: rgb(206, 143, 6);
+  border: 1px;
 }
-header nav ul li {
-  color: rgb(59, 117, 51);
+
+.mi-btn {
+  background-color: rgb(59, 117, 51);
+  color: rgb(206, 143, 6);
 }
 
 .parallax {
@@ -42,6 +41,83 @@ p {
   color: rgb(59, 117, 51);
 }
 
+h1 {
+  color: rgb(206, 143, 6);
+  font-family: "Julius Sans One", sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(59, 117, 51);
+  color: white;
+}
+
+.navbar-mio {
+  padding: 10px;
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: white;
+  background-color: transparent;
+  border: 4px rgb(245, 242, 242);
+  border-radius: 3px;
+  transition: all;
+}
+
+.where {
+  background-color: rgb(206, 143, 6);
+}
+
+.where1 {
+  background-image: url(../../images/GIRONA.jpg);
+}
+
+.where2 {
+  background-image: url(../../images/Celra.jpg);
+}
+
+.p {
+  color: rgb(245, 238, 238);
+  background-color: rgba(78, 80, 78, 0.5);
+  border-radius: 5%;
+}
+
+.about-us {
+  background-image: url(../../images/aboutU.avif);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.navbar-mio {
+  padding: 10px;
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: white;
+  background-color: transparent;
+  border: 4px rgb(245, 242, 242);
+  border-radius: 3px;
+  transition: all;
+}
+
+.mi-btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) green, rgb(234, 234, 240), alpha;
+  box-shadow: 0 1px 1px rgba(248, 246, 248, 0.3);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.mi-btn .mi-btn:hover {
+  background-color: rgb(241, 161, 12);
+}
+
+nav {
+  background-color: rgb(59, 117, 51);
+}
+
 footer div {
   background-color: rgb(59, 117, 51);
 }
@@ -54,18 +130,6 @@ footer div img {
   width: 150px;
   opacity: 10%;
   padding: 1%;
-}
-
-* {
-  border: 0;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.Img-LOG {
-  width: 300px;
-  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -41,7 +41,10 @@
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+@mixin mi-header{
+	background-color: $color-primario;
+	font-family: $tipografia-general;
+}
 
 //prueba
 

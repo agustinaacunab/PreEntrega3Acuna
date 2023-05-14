@@ -1,0 +1,47 @@
+
+h1{
+    color: $color-secundario;
+    font-family: $tipografia-general;
+
+}
+h2, h3{
+    text-align: center;
+}
+nav{
+    background-color: $color-primario;
+    color: white;
+    
+}
+
+
+    .navbar-mio {
+        padding: 10px;
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: white;
+        background-color: transparent;
+        border: 4px rgb(245, 242, 242);
+        border-radius: 3px;
+        transition:all;
+    }
+
+    .where{
+        background-color: $color-secundario;
+    }
+    .where1{
+        background-image: url(../../images/GIRONA.jpg);
+    }
+    .where2{
+        background-image: url(../../images/Celra.jpg);
+        
+    }
+    .p{
+        color: rgb(245, 238, 238);
+        background-color: rgba(78, 80, 78, 0.5);
+        border-radius: 5%;
+    }
+    .about-us{
+        background-image: url(../../images/aboutU.avif);
+        background-repeat:repeat;
+        background-size:contain;
+    }

@@ -1,1 +1,13 @@
 //estilos agrupados 
+$nav:(
+    bg-c: gray,
+    deco: none,
+    borde: 2px solid black,
+
+);
+
+nav{
+    background-color: map-get($nav,gray);
+    text-decoration: map-get($nav, deco);
+    border: map-get($nav, borde);
+}

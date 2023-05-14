@@ -1,0 +1,26 @@
+
+//#4e8a3f color fondo
+.navbar-mio {
+    padding: 10px;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    border: 4px rgb(245, 242, 242);
+    border-radius: 3px;
+    transition:all;
+}
+
+.mi-btn{
+    border-radius: 3px;
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3) green, rgb(234, 234, 240), alpha;
+	box-shadow: 0 1px 1px rgba(248, 246, 248, 0.3);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+    .mi-btn:hover{
+        background-color: rgb(241, 161, 12);
+      }
+}
