@@ -45,3 +45,16 @@ nav{
         background-repeat:repeat;
         background-size:contain;
     }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        @include Cl-IL
+    }
+    .nav-link {
+        @include Cl-IL
+    }
+    .offcanvas-body {
+        background-color: $color-primario;
+    }
+    .dropdown-item{
+        background-color: $color-primario;
+        
+    }

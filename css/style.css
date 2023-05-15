@@ -90,6 +90,84 @@ nav {
   background-size: contain;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-link {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.offcanvas-body {
+  background-color: rgb(59, 117, 51);
+}
+
+.dropdown-item {
+  background-color: rgb(59, 117, 51);
+}
+
+.txt-us2 {
+  color: rgb(12, 12, 12);
+  padding: 1%;
+  border: 25%;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.Form {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mi-selection {
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) green, blue, alpha;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.form-select {
+  background-color: rgb(206, 143, 6);
+  font-family: "Quicksand", sans-serif;
+  box-shadow: none;
+  border-color: black;
+}
+
+.area-txt {
+  border-color: black;
+  border-radius: 10px;
+}
+
+.mi-btn {
+  background-color: green;
+  color: rgb(221, 220, 218);
+  border-color: black;
+  border-radius: 10px;
+}
+.mi-btn a {
+  background-color: rgb(110, 119, 105);
+  transition: background-color 0.5s;
+}
+.mi-btn a:hover {
+  color: rgb(206, 143, 6);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+  height: auto;
+}
+
 .navbar-mio {
   padding: 10px;
   font-size: var(--bs-navbar-toggler-font-size);
@@ -102,16 +180,51 @@ nav {
 }
 
 .mi-btn {
-  border-radius: 3px;
+  border-radius: 30px;
   display: inline-block;
   padding: 10px 15px;
   text-decoration: none;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) green, rgb(234, 234, 240), alpha;
-  box-shadow: 0 1px 1px rgba(248, 246, 248, 0.3);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) green, blue, alpha;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-.mi-btn .mi-btn:hover {
-  background-color: rgb(241, 161, 12);
+
+.pEO {
+  color: green;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.txt-us3 {
+  color: rgb(0, 0, 0);
+  padding: 1%;
+  border: 25%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.txt-IL {
+  color: rgb(212, 160, 17);
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-link {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.offcanvas-body {
+  background-color: rgb(59, 117, 51);
+}
+
+.dropdown-item {
+  background-color: rgb(59, 117, 51);
 }
 
 nav {

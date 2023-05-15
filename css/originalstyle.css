@@ -61,23 +61,7 @@ height: 300px;
 
 
 /*Boton nav*/
-.mi-active{
-	background-color: green;
-	color: rgb(221, 220, 218);
-	border-color: black;
-}
-a {
-	background-color: rgb(110, 119, 105);
-	transition: background-color .5s;
-  }
-  
-  a:hover {
-	background-color: rgb(2, 124, 39);
-	
-  }
-  .Logo{
-	background-color: rgb(8, 116, 4);
-  }
+
   /*Textos Nosotros*/
   .Txt-Carrousel1{
 	color: black;
@@ -96,16 +80,8 @@ font-family:  'Julius Sans One', sans-serif;
 	font-weight: bold;
   }
   /*btns*/
-  .mi-btn{
-	border-radius: 50px;
-	display: inline-block;
-	padding: 20px 15px;
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.3) green, blue, alpha;
-	box-shadow: 0 1px 1px rgba(212, 6, 168, 0.3);
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 	
-  }
   .FORM-Box{
 	border-color: #070707;
 	border-bottom: #070707;
@@ -140,71 +116,6 @@ font-family:  'Julius Sans One', sans-serif;
 .btn-Login:hover{
 	background-color: green;
 	color: white;
-}
-/*textos*/
-
-.txt-us1{
-color: rgb(0, 0, 0);
-font-family:   'Quicksand', sans-serif;
-padding: 1%;
-border: 25%;
-background-color: rgb(238, 192, 93);
-font-family: 'Caveat', cursive;
-font-size: 25px;
-text-align: center;
-}
-.cla-us{
-	background-color: green;
-}
-.txt-us2{
-	color: rgb(0, 0, 0);
-	padding: 1%;
-	border: 25%;
-	font-size: 35px;
-	text-align: center;
-	font-family:   'Quicksand', sans-serif;
-}
-.txt-us3{
-	color: rgb(0, 0, 0);
-	padding: 1%;
-	border: 25%;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 35px;
-	text-align: center;
-}
-
-.Where{
-	font-family: 'Amatic SC';
-	color: rgb(7, 7, 7);
-	text-align: center;
-	font-size: 40px;
-	font-weight: bold;
-}
-.mapa1{
-	font-family: 'Amatic SC';
-	color: rgb(58, 40, 16);
-	text-align: center;
-	backface-visibility: visible;
-}
-.mapa2{
-	font-family: 'Amatic SC';
-	color: rgb(124, 107, 8);
-	text-align: center;
-	backface-visibility: visible;
-}
-.txt-IN{
-	font-family: 'Julius Sans One', sans-serif;
-	text-align: center;
-}
-.RedesF{
-	text-align: center;
-	font-family: 'Caveat', cursive;
-}
-.acordeon-mio{
-	color: orange;
-	background-color: rgb(43, 133, 25);
-	font-family: 'Montserrat', sans-serif;
-	
 }
 /*propiedades cambiadas*/
 .acordeon-mio:not(.collapsed) {

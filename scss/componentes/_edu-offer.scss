@@ -12,15 +12,35 @@
 }
 
 .mi-btn{
-    border-radius: 3px;
-	display: inline-block;
-	padding: 10px 15px;
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.3) green, rgb(234, 234, 240), alpha;
-	box-shadow: 0 1px 1px rgba(248, 246, 248, 0.3);
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	
-    .mi-btn &:hover{
-        background-color: rgb(241, 161, 12);
-      }
+	@include Botones
+}
+
+.pEO{
+    color: green;
+    font-family: $tipografia-alternativa;
+    font-size: 15px;
+}
+
+.txt-us3{
+    @include txt-us3
+}
+
+
+.txt-IL{
+    
+    @include txt-IL
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    @include Cl-IL
+}
+.nav-link {
+    @include Cl-IL
+}
+.offcanvas-body {
+    background-color: $color-primario;
+}
+.dropdown-item{
+    background-color: $color-primario;
+    
 }

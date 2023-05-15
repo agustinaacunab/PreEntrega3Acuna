@@ -1,0 +1,37 @@
+
+.txt-us2{
+    @include txt-us2
+    
+}
+
+.Form{
+    @include FORMULARIO
+}
+
+.mi-selection{
+    @include Botones
+}
+.form-select{
+    background-color: $color-secundario;
+    font-family:  'Quicksand', sans-serif;
+    box-shadow: none;
+    border-color: black;
+    
+}
+.area-txt{
+    border-color: black;
+    border-radius: 10px;
+    
+}
+
+.mi-btn{
+    
+    @include Mi-active
+}
+
+.footer{
+    
+    display: flex;
+    align-items: center;
+    @include Footer-container
+}

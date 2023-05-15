@@ -13,18 +13,18 @@
 	background-color: green;
 	color: rgb(221, 220, 218);
 	border-color: black;
+	border-radius: 10px;
 	a {
 		background-color: rgb(110, 119, 105);
 		transition: background-color .5s;
-		a:hover {
-			background-color: rgb(2, 124, 39);
-
+		&:hover {
+			color: $color-secundario;
 	}
 	}
 }
 
 @mixin FORMULARIO{
-	background-color: $color-primario;
+	
 	color: $colores-textos;
 	font-family:  'Quicksand', sans-serif;
 	font-size: 20px;
@@ -32,19 +32,64 @@
 }
 
 @mixin Botones{
-	border-radius: 50px;
+	border-radius: 30px;
 	display: inline-block;
-	padding: 20px 15px;
+	padding: 10px 15px;
 	text-decoration: none;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.3) green, blue, alpha;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@mixin mi-header{
-	background-color: $color-primario;
-	font-family: $tipografia-general;
+@mixin txt-us3{
+	color: rgb(0, 0, 0);
+	padding: 1%;
+	border: 25%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: center;
 }
 
+
+@mixin txt-us1{
+	color: rgb(0, 0, 0);
+	font-family:   'Quicksand', sans-serif;
+	padding: 1%;
+	border: 25%;
+	background-color: rgb(238, 192, 93);
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	text-align: center;
+	}
+
+	@mixin txt-us2{
+		color: rgb(12, 12, 12);
+		padding: 1%;
+		border: 25%;
+		font-size: 35px;
+		text-align: center;
+		font-family:   'Quicksand', sans-serif;
+	}
+
+@mixin txt-IL{
+	color: rgb(212, 160, 17);
+    font-family:  'Julius Sans One', sans-serif;
+}
+
+@mixin Txt-options{
+	color: $color-secundario;
+	font-family:  'Quicksand', sans-serif;
+}
+@mixin Cl-IL{
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@mixin Footer-container{
+	width: 300px;
+	margin: 10px;
+	height: auto;
+	
+}
 //prueba
 
