@@ -1,4 +1,11 @@
 
+html{
+    @media (max-width: 576px) {
+        
+        font-size: 10px; // Ajusta el tamaño de la fuente para dispositivos de 576px o menos
+        
+      }
+}
 .txt-us2{
     @include txt-us2
     
@@ -9,7 +16,12 @@
 }
 
 .mi-selection{
-    @include Botones
+    @include Botones;
+    &:hover{
+        background-color: $color-primario;
+        color: white;
+    }
+    
 }
 .form-select{
     background-color: $color-secundario;
@@ -34,4 +46,15 @@
     display: flex;
     align-items: center;
     @include Footer-container
+}
+
+.navbar-mio {
+    padding: 10px;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    border: 4px rgb(245, 242, 242);
+    border-radius: 3px;
+    transition:all;
 }

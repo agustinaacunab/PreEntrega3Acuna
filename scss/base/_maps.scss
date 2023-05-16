@@ -6,8 +6,4 @@ $nav:(
 
 );
 //ejemplo
-nav{
-    background-color: map-get($nav,gray);
-    text-decoration: map-get($nav, deco);
-    border: map-get($nav, borde);
-}
+
