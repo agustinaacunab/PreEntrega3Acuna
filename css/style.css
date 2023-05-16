@@ -24,15 +24,15 @@ nav {
 }
 
 .img-uno {
-  background-image: url(../../images/IL2023.JPG);
+  background-image: url(../images/IL2023.JPG);
 }
 
 .img-dos {
-  background-image: url(../../images/people.avif);
+  background-image: url(../images/people.avif);
 }
 
 .img-tres {
-  background-image: url(../../images/studenst.avif);
+  background-image: url(../images/studenst.avif);
 }
 
 p {
@@ -227,8 +227,14 @@ nav {
   background-color: rgb(59, 117, 51);
 }
 
-nav {
-  background-color: rgb(59, 117, 51);
+.mi-btn {
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) green, blue, alpha;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 footer div {
