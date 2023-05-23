@@ -79,7 +79,7 @@ nav {
 }
 
 .about-us {
-  background-image: url(../../images/aboutU.avif);
+  background-image: url(../images/aboutU.avif);
   background-repeat: repeat;
   background-size: contain;
 }
