@@ -1,11 +1,8 @@
-@mixin hamburguesa($fondo:green){
+@mixin hamburguesa($fondo:rgb(4, 192, 4)){
 	background-color: $fondo;
 	color: white;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	a:hover{
-		background-color: $color-secundario;
-		color: black;
-	}
+	
 
 }
 
@@ -93,6 +90,19 @@
 	margin: 10px;
 	height: auto;
 	
+}
+
+@mixin Txt-Principales{
+	padding: 5%;
+	text-align: center;
+}
+
+@mixin Logo{
+	
+		width: 200px; 
+		height: 200px; 
+		border-radius: 50%; 
+	  
 }
 //prueba
 

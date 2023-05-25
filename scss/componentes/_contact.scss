@@ -2,7 +2,7 @@
 html{
     @media (max-width: 576px) {
         
-        font-size: 10px; // Ajusta el tamaño de la fuente para dispositivos de 576px o menos
+        font-size: 20px; // Ajusta el tamaño de la fuente para dispositivos de 576px o menos
         
       }
 }
@@ -24,7 +24,7 @@ html{
     
 }
 .form-select{
-    background-color: $color-secundario;
+    background-color: $color-primario;
     font-family:  'Quicksand', sans-serif;
     box-shadow: none;
     border-color: black;
@@ -57,4 +57,9 @@ html{
     border: 4px rgb(245, 242, 242);
     border-radius: 3px;
     transition:all;
+}
+
+.txt-us1{
+    color: $color-secundario;
+    text-align: center;
 }

@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
-    <header class="container-fluid">
-        <nav class="navbar   row">
+<body class="col-md-12 col-lg-12">
+    <header class="header">
+        <nav class="navbar mi-nav">
             <div>
-                <a href="../index.html"><img src="../images/LogoInterlingua.png" alt="Logo" class="rounded-circle Img-LOG" width="150px" height="150px"></a>
+                <a href="../index.html"><img src="../images/LogoInterlingua.png" alt="Logo" class="Logo" ></a>
               </div>
             <div class="container-fluid">
               <a class="navbar-brand" >Contacto</a>
               <button class="navbar-mio" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon mi-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
@@ -31,7 +31,7 @@
                       <a class="nav-link active" aria-current="page" href="./about-us.html">About us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./contact.html">contact</a>
+                      <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./edu-offer.html">Lo que ofrecemos</a>
@@ -55,27 +55,27 @@
     </header>
     <main>
         <section>
-            <h1 data-aos="fade-right">Te dejamos un espacio para que puedas comunicarte con nosotros!</h1>
+            <h1 data-aos="fade-right" class="txt-us1">Te dejamos un espacio para que puedas comunicarte con nosotros!</h1>
             <h3 class="txt-us2">En esta seccion vas a poder contactarte con nostros, a la brevedad te contestaremos respondiendo tus dudas!</h3>
         </section>
         <section class="container-fluid ">
             <div class="row col-8">
-              <form action="/enviar-formulario" method="post" class="">
-                  <div><label for="name" class="form-label Form">Nombre:</label>
+              <form action="https://formspree.io/f/{form_id}" method="post">
+                  <div><label for="name" class="Form">Nombre:</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1" required>
                   </div>
 
                   <div>
-                  <label for="apellido" class="form-label Form">Apellido:</label>
-                  <input type="text" id="exampleFormControlInput1" name="apellido"  class="form-control"required>
+                  <label for="surname" class="Form">Apellido:</label>
+                  <input type="text" id="exampleFormControlInput1" class="form-control"required>
                   </div>
                   <div>
-                  <label for="telefono" class="form-label Form">Teléfono:</label>
-                  <input type="tel" id="exampleFormControlInput1" name="telefono" class="form-control"required>
+                  <label for="phone" class="Form">Teléfono:</label>
+                  <input type="tel" id="exampleFormControlInput1" class="form-control"required>
                 </div>
                 <div>
-                  <label for="exampleFormControlInput1" class="form-label Form">Email:</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" >
+                  <label for="exampleFormControlInput1" class="Form">Email:</label>
+                  <input type="email" class="form-control" >
                   <div>
                     <label for="exampleFormControlInput1" class="form-label Form ">Tipo mensaje:</label>
                   <select class="form-select mi-selection" aria-label="Default select example">
@@ -98,15 +98,19 @@
           
     </main>
     <footer>
+      <div >
         <div>
-            <div>
-                <h2>Seguinos en redes para enterarte todas las novedades que tenemos para ofrecerte</h2>
-                <div class="footer">
-                    <img src="../images/twitter.png" alt="twitter" class="rounded-circle">
-                    <img src="../images/facebook.png" alt="Facebook" class="rounded-circle">
-                    <img src="../images/Instagram.png" alt="Instagram" class="rounded-circle">
-            </div>	
-            </div>
+            <h2 class="texto-interior">Seguinos en redes para enterarte todas las novedades que tenemos para ofrecerte</h2>
+            <div class="Images-ft">
+                <img src="../images/Instagram.png" alt="Instagram">
+                <img src="../images/Tiktok.png" alt="Tiktok">
+                <img src="../images/Telegram.png" alt="Telegram">
+                <img src="../images/twitter.png" alt="Twitter">
+        </div>	
+        <div class="Footcontainer">
+          <img src="../images/Copyright.png" alt="Copyright">
+          <h4>All rights reserved</h4>
+        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

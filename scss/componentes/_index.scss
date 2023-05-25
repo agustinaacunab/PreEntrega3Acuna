@@ -20,5 +20,16 @@ p{
 	color: $color-primario;
 }
 
+.Textos{
+	@include Txt-Principales
+}
+
+   .texto-interior{
+font-size: 15px;
+color: black;
+padding: 3%;
+   }     
+      
+   
 
 

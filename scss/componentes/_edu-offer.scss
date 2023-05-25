@@ -1,5 +1,7 @@
 
-//#4e8a3f color fondo
+body{
+    overflow-x: hidden;
+}
 .navbar-mio {
     padding: 10px;
     font-size: var(--bs-navbar-toggler-font-size);
@@ -44,3 +46,27 @@
     background-color: $color-primario;
     
 }
+.cards{
+    
+    padding: 5%;
+    width: 33%;
+    height: 10%;
+    border: 10%;
+}
+.Offer{
+    text-align: center;
+}
+
+.Bordes{
+    padding: 5%;
+}
+@media (max-width: 576px) {
+        .cards{
+            padding: 7%;
+           width: 70%;
+           height: 60%;
+           border: 20%;
+        }
+    
+
+  }

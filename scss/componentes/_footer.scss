@@ -1,5 +1,6 @@
 footer{
-    div{
+    
+        
         background-color: $color-primario;
         h2{
             color: $color-secundario;
@@ -7,9 +8,18 @@ footer{
             text-align: center;
         }
         img{
-             width: 150px;
-             opacity: 10%;
+             width: 80px;
              padding: 1%;
+
         }
-    }
+    
+}
+
+.Footcontainer{
+    display: flex;
+    align-items: end;
+    
+}
+.Images-ft{
+    align-items:center;
 }
